@@ -1,4 +1,4 @@
-* {
+/* * {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -23,4 +23,67 @@ body {
 body.opacity{
     background-image:linear-gradient(to bottom, #33ccff 25%, #0033cc 100%), url("https://cdn.pixabay.com/photo/2018/08/21/23/04/jack-russel-3622449_960_720.jpg")  ; 
     
+} */
+
+* {
+    font-family: sans-serif;
+
+}
+
+body{
+    background-color: rgb(94, 94, 94);
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(172, 172, 172);
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    padding-top: 20px;
+}
+
+#menu ul li{
+    display: block;
+    float: none;
+    padding:0 30px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    transition: color 0.2s ease-out;
+}
+
+#Inicio:hover,
+#Nosotros:hover,
+#Perros:hover,
+#Gatos:hover,
+#Contactos:hover {
+    color: whitesmoke;
+    transition: color 0.2s ease-out;
+
+}
+
+#parrafos {
+    padding:50px 200px;
+    
+}
+
+#parrafos #p1 {
+    padding-left: 100px;
+    padding-right: 200px;
+    margin: auto;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    margin-top: 10px;
+    box-sizing: border-box;
+
+}
+
+#parrafos #p1 p {
+
 }
